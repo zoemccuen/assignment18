@@ -165,7 +165,7 @@ const modalClose = (theName) => {
 }
 
 const loadCraft = async () => {
-    const url = "https://assignment18-jsu9.onrender.com:3005/api/crafts";
+    const url = "https://assignment18-jsu9.onrender.com/api/crafts";
     try {
         const craft = await Craft.fetch(url);
         return await craft;
@@ -207,7 +207,7 @@ const addSupplies = () => {
 
 
 const deleteCraft = (recId) => {
-    const url = `https://assignment18-jsu9.onrender.com:3005/api/crafts/${recId}`;
+    const url = `https://assignment18-jsu9.onrender.com/api/crafts/${recId}`;
     console.log("Deleting Craft ID:", recId);
     const options = {
         method: "DELETE", // Change to DELETE
