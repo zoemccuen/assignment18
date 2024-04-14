@@ -139,6 +139,7 @@ button, input[type=button] {
     flex-wrap: wrap;
     color: black;
     background-color: white;
+    max-width: 630px;
 }
 
 .craft-details {
