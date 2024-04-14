@@ -25,7 +25,7 @@ const upload = multer({ storage: storage });
 
 mongoose
     .connect(
-        "mongodb+srv://zoelenore:1415Birchave!@assignment15.dg9dui2.mongodb.net/hw17?retryWrites=true&w=majority&appName=assignment15")
+        "mongodb+srv://zoelenore:1415Birchave!@assignment15.dg9dui2.mongodb.net/hw18?retryWrites=true&w=majority&appName=assignment15")
     .then(() => {
         console.log("Connected to mongodb...");
         // Insert crafts into MongoDB collection
