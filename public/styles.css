@@ -145,6 +145,7 @@ button, input[type=button] {
     display: block;
     text-align: left;
     margin-left: 10px;
+    max-width: 500px;
 }
 
 .craft-details-header {    
