@@ -258,8 +258,6 @@ body {
 /* Larger Resolutions */
 @media (min-width: 900px) {
 
-  
-
     #main-content {
         width: 100%;
         margin: auto;
