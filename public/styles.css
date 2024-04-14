@@ -134,12 +134,11 @@ button, input[type=button] {
 }
 
 .expanded-info {
-    width: 80%;
     display: flex;    
     flex-wrap: wrap;
     color: black;
     background-color: white;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .craft-details {
